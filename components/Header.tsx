@@ -4,11 +4,14 @@ import React from "react";
 import styles from "../styles/Home.module.css";
 import Menu from "./Menu";
 
+
+
 export default function Header() {
   // Helpful thirdweb hooks to connect and manage the wallet from metamask.
   const address = useAddress();
   const connectWithMetamask = useMetamask();
   const disconnectWallet = useDisconnect();
+  
 
   return (
     <div className={styles.header}>
@@ -24,8 +27,11 @@ export default function Header() {
           </Link>
         </div>
       </div>
-      
+      <div className={styles.nav}>
+    <Menu />
+     </div>
       <div className={styles.right}>
+    
         {address ? (
           <>
             <a

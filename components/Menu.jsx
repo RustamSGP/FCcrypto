@@ -1,46 +1,25 @@
 import React from 'react';
+import Link from 'next/link';
+ // импортируем стили из globals.css
 
 const Menu = () => {
   return (
-    <nav>
+    <nav> 
       <ul>
         <li>
-          <Link to="/">Главная</Link>
+          <Link href="/index">Главная</Link>
         </li>
         <li>
-          <Link to="/about">O нас</Link>
+          <Link href="/about">O нас</Link>
         </li>
         <li>
-          <Link to="/fan-shop">Фан Шоп</Link>
+          <Link href="/market">Фан Шоп</Link>
         </li>
         <li>
-          <Link to="/ticket-office">Билетная Касса</Link>
+          <Link href="/tickets">Билетная Касса</Link>
         </li>
         <li>
-          <Link to="/team">Команды клуба</Link>
-          <ul>
-            <li>
-              <Link to="/team/adults">Взрослые</Link>
-            </li>
-            <li>
-              <Link to="/team/2008">2008</Link>
-            </li>
-            <li>
-              <Link to="/team/2009">2009</Link>
-            </li>
-            <li>
-              <Link to="/team/2011">2011</Link>
-            </li>
-            <li>
-              <Link to="/team/2012">2012</Link>
-            </li>
-            <li>
-              <Link to="/team/girls">девочки</Link>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <Link to="/salut-foundation">Salut Foundation</Link>
+          <Link href="http://reality.cryptogamesplay.com/">Salut Foundation</Link>
         </li>
       </ul>
     </nav>

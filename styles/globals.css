@@ -43,3 +43,35 @@ body {
 h2 {
   font-size: 2rem;
 }
+
+/* меню сайта */ 
+
+nav {
+  background-color: #fd4b04;
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 50vh;
+  padding: 20vh;
+}
+
+li {
+  flex: 1;
+  text-align: center;
+}
+
+a {
+  color: black;
+  display: block;
+  font-weight: bold;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(246, 244, 244);
+}

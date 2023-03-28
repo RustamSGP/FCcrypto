@@ -254,3 +254,29 @@ For any questions, suggestions, join our discord at [https://discord.gg/thirdweb
             Create A Listing
           </Link>
         </div>
+
+
+/*
+             <li>
+          <Link to="/team">Команды клуба</Link>
+          <ul>
+            <li>
+              <Link to="/team/adults">Взрослые</Link>
+            </li>
+            <li>
+              <Link to="/team/2008">2008</Link>
+            </li>
+            <li>
+              <Link to="/team/2009">2009</Link>
+            </li>
+            <li>
+              <Link to="/team/2011">2011</Link>
+            </li>
+            <li>
+              <Link to="/team/2012">2012</Link>
+            </li>
+            <li>
+              <Link to="/team/girls">девочки</Link>
+            </li>
+          </ul> 
+          </li> */
