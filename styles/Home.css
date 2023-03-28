@@ -1,83 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  --hello: -100%;
-  padding-bottom: 250px;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-:root {
-  --black: #1c1e21;
-  --white: #ffffff;
-  --tw-color1: #a855f7;
-  --tw-color1-hover: #9333ea;
-}
-
-body {
-  background: var(--black);
-  font-family: "Inter", sans-serif;
-  color: var(--white);
-  display: flex;
-  margin: 0;
-  text-align: center;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-/* меню сайта */ 
-
-nav {
-  background-color: #fd4b04;
-
-}
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  margin: 50vh;
-  padding: 20vh;
-}
-
-li {
-  flex: 1;
-  text-align: center;
-}
-
-a {
-  color: black;
-  display: block;
-  font-weight: bold;
-  padding: 1.5rem;
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: rgb(246, 244, 244);
-}
-
-
-/* Home.tsx */
 
 * {
     margin: 0;
@@ -87,9 +8,8 @@ a:hover {
  /*общие настройки */
 
 body {
-width: 100%;
 padding: 0px;
-background-color: rgb(3, 3, 3);
+background-color: rgb(28, 233, 107);
  }
 
 
@@ -104,13 +24,12 @@ background-color: rgb(3, 3, 3);
  .section1 {
   display: grid;
   background-color: #fd4b04;
-  grid-template-rows: 3fr 1fr;
-  grid-template-columns: 150vh;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 90vh;
   background-image: url('../public/FanShop2.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
-  top: 50px;
+  background-position: end;
 }
 
 .section1 h2 {
@@ -184,25 +103,10 @@ background-color: rgb(3, 3, 3);
   overflow: hidden;
   display: flex;
   flex-direction: column-reverse;
-  background-image: url("../public/10.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: var(--tw-color1);
+  background-color: brown;
   
  }
 
- .Main h1 {
-  position: absolute;
-  top: 12vh;
-  left: 7%;
-  color: #f9f4f4;
-  font-size: 36px;
-  text-align: start;
-  background-color: #fd4b04;
- }
- .Main h1 a {
-  color: #0c0c0c;
- }
 
 .Grid * { 
 border: 1px solid black;
@@ -217,7 +121,7 @@ color: #fff;
 display: grid;
 background-color: rgb(255, 162, 0);
 grid-template-columns: 3fr 1fr;
-grid-template-rows: 55vh;
+grid-template-rows: 50vh;
 }
 
 .grid2 {
@@ -233,39 +137,23 @@ grid-template-rows: 55vh;
   display: grid;
   background-color: rgb(255, 162, 0);
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50vh;
+  grid-template-rows: 40vh;
   
 }
 
 
 .content {
   border: 1px solid black;
- 
+    
 }
 
 
 .footer {
   min-height: 100%;
-  height: 50vh;
+  height: 70vh;
   overflow: hidden;
   display: flex;
   flex-direction: column-reverse;
-  background-image: url("../public/1_n.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: var(--hello);
-}
-
-.footer h1 {
-  position: absolute;
-  top: 12vh;
-  left: 7%;
-  color: #f9f4f4;
-  font-size: 36px;
-  text-align: start;
   background-color: #fd4b04;
- }
-
- .footer h1 a {
-  color: #0c0c0c;
- }
+  bottom: -300px;
+}
