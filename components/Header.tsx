@@ -2,6 +2,7 @@ import { useAddress, useMetamask, useDisconnect } from "@thirdweb-dev/react";
 import Link from "next/link";
 import React from "react";
 import styles from "../styles/Home.module.css";
+import Menu from "./Menu";
 
 export default function Header() {
   // Helpful thirdweb hooks to connect and manage the wallet from metamask.
@@ -23,6 +24,7 @@ export default function Header() {
           </Link>
         </div>
       </div>
+      
       <div className={styles.right}>
         {address ? (
           <>

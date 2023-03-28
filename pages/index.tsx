@@ -19,9 +19,9 @@ const Home: NextPage = () => {
       {/* Content */}
       <div className={styles.container}>
         {/* Top Section */}
-        <h1 className={styles.h1}>Фирменный магазин ФК Титан</h1>
+        <h1 className={styles.h1}>Билеты на матчи ФК Титан</h1>
         <p className={styles.explain}>
-          Купи форму любимой команды
+          Поддержи команду своего района
         </p>
 
         <hr className={styles.divider} />
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           {
             // If the listings are loading, show a loading message
             loadingListings ? (
-              <div>Loading listings...</div>
+              <div>Идет загрузка. Подождите...</div>
             ) : (
               // Otherwise, show the listings
               <div className={styles.listingGrid}>
