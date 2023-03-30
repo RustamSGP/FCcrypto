@@ -1,4 +1,4 @@
-import { NextPage } from "next";
+import type { NextPage } from "next";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import {
@@ -20,7 +20,6 @@ const Home: NextPage = () => {
               <h1>Клубiв багато 
                 <a>                - найкращий один! </a></h1>   
             </div>
-    нфкт
             <div className="Content">
               <div className="Grid">
                 <div className="grid1">
