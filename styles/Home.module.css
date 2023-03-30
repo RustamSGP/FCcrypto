@@ -437,3 +437,181 @@
 .nav ul ul li > a {
   color: #fff; /* Цвет текста подменю */
 }
+
+
+
+/* Home */
+
+.section {
+  border: 1px solid black;
+  background-color: rgb(177, 234, 18);
+}
+
+.section1 {
+display: grid;
+background-color: #fd4b04;
+grid-template-rows: 3fr 1fr;
+grid-template-columns: 150vh;
+background-image: url('../public/FanShop2.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+top: 50px;
+}
+
+.section1 h2 {
+position: absolute;
+background-color: #fd4b04;
+left: 75%;
+color: #040404;
+font-size: 36px;
+text-align: start;
+}
+
+
+.section2 {
+display: grid;
+background-color: rgb(255, 162, 0);
+grid-template-columns: 3fr 1fr;
+grid-template-rows: 50vh;
+background-image: url('../public/Анонс.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+
+.section3 {
+display: grid;
+background-color: rgb(255, 162, 0);
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 50vh;
+background-image: url('../public/наборТитан.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.section4 {
+display: grid;
+background-color: #fd4b04;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 50vh;
+background-image: url('../public/Билет.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.section4 h2 {
+position: absolute;
+background-color: #fd4b04;
+left: 75%;
+color: #040404;
+font-size: 36px;
+text-align: start;
+}
+
+.section5 {
+display: grid;
+background-color: rgb(255, 162, 0);
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 50vh;
+background-image: url('../public/орел.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.Main {
+min-height: 100%;
+height: 80vh;
+overflow: hidden;
+display: flex;
+flex-direction: column-reverse;
+background-image: url("../public/10.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: var(--tw-color1);
+
+}
+
+.Main h1 {
+position: absolute;
+top: 12vh;
+left: 7%;
+color: #f9f4f4;
+font-size: 36px;
+text-align: start;
+background-color: #fd4b04;
+}
+.Main h1 a {
+color: #0c0c0c;
+}
+
+.Grid * { 
+border: 1px solid black;
+background-color: #fff;
+text-align: center;
+font-size: 22px;
+font-family: sans-serif;
+color: #fff;
+}
+
+.grid1 {
+display: grid;
+background-color: rgb(255, 162, 0);
+grid-template-columns: 3fr 1fr;
+grid-template-rows: 55vh;
+}
+
+.grid2 {
+display: grid;
+background-color: rgb(255, 162, 0);
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 50vh;
+
+}
+
+
+.grid3 {
+display: grid;
+background-color: rgb(255, 162, 0);
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 50vh;
+
+}
+
+
+.content {
+border: 1px solid black;
+
+}
+
+
+.footer {
+min-height: 100%;
+height: 50vh;
+overflow: hidden;
+display: flex;
+flex-direction: column-reverse;
+background-image: url("../public/1_n.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: var(--hello);
+}
+
+.footer h1 {
+position: absolute;
+top: 12vh;
+left: 7%;
+color: #f9f4f4;
+font-size: 36px;
+text-align: start;
+background-color: #fd4b04;
+}
+
+.footer h1 a {
+color: #0c0c0c;
+}

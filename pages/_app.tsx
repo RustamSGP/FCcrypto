@@ -4,6 +4,8 @@ import "../styles/globals.css";
 import Head from "next/head";
 import ThirdwebGuideFooter from "../components/ThirdwebGuideFooter";
 import Header from "../components/Header";
+import styles from "../styles/Home.module.css";
+
 
 // This is the chainId your dApp will work on.
 const activeChainId = ChainId.Mumbai;
