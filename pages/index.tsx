@@ -14,22 +14,13 @@ const Home: NextPage = () => {
   const router = useRouter();
   const { contract: marketplace } = useContract(marketplaceContractAddress, "marketplace");
   const { data: listings, isLoading: loadingListings } = useActiveListings(marketplace);
-<<<<<<< HEAD
     return (
           <div>
-=======
-
-  return (
-    <div>
->>>>>>> 61c505dc987dc40565666ef9279af1a88e2e74ee
             <div className="Main"> 
               <h1>Клубiв багато 
                 <a>                - найкращий один! </a></h1>   
             </div>
-<<<<<<< HEAD
     
-=======
->>>>>>> 61c505dc987dc40565666ef9279af1a88e2e74ee
             <div className="Content">
               <div className="Grid">
                 <div className="grid1">
@@ -58,9 +49,5 @@ const Home: NextPage = () => {
           </div>
       );
     };
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 61c505dc987dc40565666ef9279af1a88e2e74ee
 export default Home;
