@@ -7,7 +7,7 @@ const Menu = () => {
     <nav> 
       <ul>
         <li>
-          <Link href="/index">Главная</Link>
+          <Link href="/Home">Главная</Link>
         </li>
         <li>
           <Link href="/about">O нас</Link>

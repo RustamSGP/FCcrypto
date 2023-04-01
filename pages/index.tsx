@@ -1,26 +1,13 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
-import {
-  MediaRenderer,
-  useActiveListings,
-  useContract,
-} from "@thirdweb-dev/react";
-import { useRouter } from "next/router";
-import { marketplaceContractAddress } from "../addressesM";
 
 
 const Home: NextPage = () => {
-  const router = useRouter();
-  const { contract: marketplace } = useContract(marketplaceContractAddress, "marketplace");
-  const { data: listings, isLoading: loadingListings } = useActiveListings(marketplace);
-    return (
-          <div>
+  return (
+    <div>
             <div className="Main"> 
               <h1>Клубiв багато 
                 <a>                - найкращий один! </a></h1>   
             </div>
-    
             <div className="Content">
               <div className="Grid">
                 <div className="grid1">
@@ -49,5 +36,5 @@ const Home: NextPage = () => {
           </div>
       );
     };
-    
+
 export default Home;
