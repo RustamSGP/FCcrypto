@@ -9,10 +9,20 @@ import Header from "../components/Header";
 
 // This is the chainId your dApp will work on.
 const activeChainId = ChainId.Mumbai;
+/*<ThirdwebProvider
+activeChain="goerli"
+clientId="MY_CLIENT_ID" // You can get a client id from dashboard settings
+>
+...
+</ThirdwebProvider>*/
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider desiredChainId={activeChainId}>
+    <ThirdwebProvider 
+  //  desiredChainId={activeChainId}
+    activeChain={activeChainId}
+    clientId={process.env.MY_CLIENT_ID}
+    >
       <Head>
         <title>Фан Шоп ФК Титан</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

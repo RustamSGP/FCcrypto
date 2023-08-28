@@ -4,7 +4,7 @@ const Home: NextPage = () => {
 
   return (
     <div>
-            <div className="Main"> 
+            <div className="Main">
               <h1>Клубiв багато 
                 <a>                - найкращий один! </a></h1>   
             </div>

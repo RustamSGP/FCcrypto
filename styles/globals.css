@@ -188,9 +188,10 @@ background-color: rgb(3, 3, 3);
   background-image: url("/10.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: var(--tw-color1);
+  background-position: var(--tw-color1); 
   
  }
+
 
  .Main h1 {
   position: absolute;
